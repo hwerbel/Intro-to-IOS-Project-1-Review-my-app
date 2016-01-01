@@ -36,8 +36,7 @@ It was also my first time doing extensive coding, but it was a lot of fun once I
 Challenges I encountered were...
   Getting the simulator to have the right scale. Right now it's a bit too small but before items would show up huge
   Understanding where in the view controller life-cycle to put different commands
-  Typos in my code which I had trouble identifying 
-  
+  Typos in my code which I had trouble identifying
 ## License
 
     Copyright [2015] [Hannah Werbel]
