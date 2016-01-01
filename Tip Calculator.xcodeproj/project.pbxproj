@@ -14,6 +14,7 @@
 		85EEC89E1C34845B00FC455B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85EEC89C1C34845B00FC455B /* LaunchScreen.storyboard */; };
 		85EEC8A91C34845C00FC455B /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EEC8A81C34845C00FC455B /* Tip_CalculatorTests.swift */; };
 		85EEC8B41C34845C00FC455B /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EEC8B31C34845C00FC455B /* Tip_CalculatorUITests.swift */; };
+		85EEC8C21C35BE5E00FC455B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EEC8C11C35BE5E00FC455B /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		85EEC8AF1C34845C00FC455B /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EEC8B31C34845C00FC455B /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
 		85EEC8B51C34845C00FC455B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85EEC8C11C35BE5E00FC455B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				85EEC8931C34845B00FC455B /* AppDelegate.swift */,
 				85EEC8951C34845B00FC455B /* ViewController.swift */,
+				85EEC8C11C35BE5E00FC455B /* SettingsViewController.swift */,
 				85EEC8971C34845B00FC455B /* Main.storyboard */,
 				85EEC89A1C34845B00FC455B /* Assets.xcassets */,
 				85EEC89C1C34845B00FC455B /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				85EEC8961C34845B00FC455B /* ViewController.swift in Sources */,
 				85EEC8941C34845B00FC455B /* AppDelegate.swift in Sources */,
+				85EEC8C21C35BE5E00FC455B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				85EEC8BA1C34845C00FC455B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85EEC8BB1C34845C00FC455B /* Build configuration list for PBXNativeTarget "Tip CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				85EEC8BD1C34845C00FC455B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85EEC8BE1C34845C00FC455B /* Build configuration list for PBXNativeTarget "Tip CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				85EEC8C01C34845C00FC455B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
